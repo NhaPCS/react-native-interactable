@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import Interactable from 'react-native-interactable';
+import Interactable from 'react-native-bottomsheet-native';
 
 export default class SwipeableCard extends Component {
   render() {

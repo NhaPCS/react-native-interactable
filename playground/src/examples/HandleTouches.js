@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, FlatList, TouchableOpacity, Text } from 'react-native';
-import Interactable from 'react-native-interactable';
+import Interactable from 'react-native-bottomsheet-native';
 
 export default class HandleTouches extends Component {
-  
+
   render() {
     return (
       <FlatList

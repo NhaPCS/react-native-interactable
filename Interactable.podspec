@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
   s.version      = package["version"]
   s.summary      = package["description"]
 
-  s.homepage     = "https://github.com/wix/react-native-interactable"
+  s.homepage     = "https://github.com/NhaPCS/react-native-bottomsheet-native"
 
   s.license      = "MIT"
   s.authors      = package["author"]
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/wix/react-native-interactable.git" }
+  s.source       = { :git => "https://github.com/NhaPCS/react-native-bottomsheet-native" }
   s.source_files  = "lib/ios/Interactable/*.{h,m}"
 
   s.dependency 'React'

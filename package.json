@@ -1,6 +1,6 @@
 {
-  "name": "react-native-interactable",
-  "version": "2.0.1",
+  "name": "react-native-bottomsheet-native",
+  "version": "0.0.4",
   "description": "High performance interactable views in React Native",
   "license": "MIT",
   "author": "Tal Kol <talkol@gmail.com>",
@@ -8,13 +8,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/wix/react-native-interactable/issues"
+    "url": "https://github.com/wix/react-native-bottomsheet-native/issues"
   },
-  "homepage": "https://github.com/wix/react-native-interactable",
-  "readme": "https://github.com/wix/react-native-interactable#readme",
+  "homepage": "https://github.com/wix/react-native-bottomsheet-native",
+  "readme": "https://github.com/wix/react-native-bottomsheet-native#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/react-native-interactable.git"
+    "url": "https://github.com/wix/react-native-bottomsheet-native.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -52,7 +52,7 @@
     "react-native": "0.61.4",
     "react-test-renderer": "16.8.3"
   },
-  "typings": "typings/react-native-interactable.d.ts",
+  "typings": "typings/react-native-bottomsheet-native.d.ts",
   "babel": {
     "env": {
       "test": {

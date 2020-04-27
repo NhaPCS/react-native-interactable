@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Animated, ScrollView, Dimensions } from 'react-native';
-import Interactable from 'react-native-interactable';
+import Interactable from 'react-native-bottomsheet-native';
 
 const Screen = {
   height: Dimensions.get('window').height
@@ -73,7 +73,7 @@ export default class CollapsingHeaderWithScroll extends Component {
     }
   }
   onScroll(event) {
-    const { contentOffset } = event.nativeEvent;    
+    const { contentOffset } = event.nativeEvent;
     if (contentOffset.y <= 0) {
       this.setState({ canScroll: false });
     }

@@ -1,8 +1,8 @@
 rootProject.name = 'playground'
 include ':app'
 
-include ':react-native-interactable'
-project(':react-native-interactable').projectDir = new File(rootProject.projectDir, '../../lib/android')
+include ':react-native-bottomsheet-native'
+project(':react-native-bottomsheet-native').projectDir = new File(rootProject.projectDir, '../../lib/android')
 
 include ':detox'
 project(':detox').projectDir = new File(rootProject.projectDir, '../../`node_modules/detox/android/detox')

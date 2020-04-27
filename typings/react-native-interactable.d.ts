@@ -1,4 +1,4 @@
-declare module 'react-native-interactable' {
+declare module 'react-native-bottomsheet-native' {
 
   import {Animated, ViewProperties, ViewStyle} from 'react-native';
 

@@ -2,7 +2,7 @@
 
 ### Issues
 
-If you have any issues with the app please open an issue [here](https://github.com/wix/react-native-interactable/issues)
+If you have any issues with the app please open an issue [here](https://github.com/wix/react-native-bottomsheet-native/issues)
 
 ### Twitter
 
